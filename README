@@ -1,0 +1,75 @@
+hcal-gtk
+------------------------------------------
+Hebrew Calendar is a GTK class which shows the Hebrew dates and holydays
+and their corresponding Gregorian date. Its based on the GTK toolkit and
+it can be integrated in any piece of GTK software. The dates convertor
+is a C++ class written by Nachum Dershowitz and Edward M. Reingold, and
+available in the Public Domain. There is also support for libhdate which
+is an open source hebrew to gregorian date library available in debian
+hebrew packages.
+
+Runtime requirements:
+  cygwin-1.5.22-1
+  gtk2-x11-2.10.6-1
+  libsqlite3_0-3.3.7-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.22-1
+  autoconf2.5-2.60-1
+  automake1.9-1.9.6-1
+  binutils-20060817-1
+  cygport-0.2.7-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-1
+
+Canonical website:
+  http://hcal.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/hcal/
+
+-------------------------------------------
+
+Build instructions:
+  unpack hcal-gtk-0.6.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./hcal-gtk-0.6.3-X.cygport all
+
+This will create:
+  /usr/src/hcal-gtk-0.6.3-X-src.tar.bz2
+  /usr/src/hcal-gtk-0.6.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/hcal-gtk.exe
+  /usr/share/doc/Cygwin/hcal-gtk-0.6.3.README
+  /usr/share/doc/hcal-gtk-0.6.3/ABOUT-NLS
+  /usr/share/doc/hcal-gtk-0.6.3/AUTHORS
+  /usr/share/doc/hcal-gtk-0.6.3/COPYING
+  /usr/share/doc/hcal-gtk-0.6.3/ChangeLog
+  /usr/share/doc/hcal-gtk-0.6.3/INSTALL
+  /usr/share/doc/hcal-gtk-0.6.3/README
+  /usr/share/doc/hcal-gtk-0.6.3/THANKS
+  /usr/share/hcal-gtk/hcal.conf
+  /usr/share/hcal-gtk/hcal.db
+  /usr/share/hcal-gtk/hcal_db.sql
+  /usr/share/locale/he/LC_MESSAGES/hcal-gtk.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.6.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

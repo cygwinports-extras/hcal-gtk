@@ -1,0 +1,7 @@
+inherit gnome2
+
+DESCRIPTION="GTK Hebrew calendar"
+HOMEPAGE="http://hcal.sourceforge.net/"
+SRC_URI="mirror://sourceforge/hcal/${P}.tar.gz"
+
+DIFF_EXCLUDES="intl m4"

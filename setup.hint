@@ -1,0 +1,10 @@
+category: Judaism
+requires: cygwin gtk2-x11 libsqlite3_0
+sdesc: "GTK Hebrew calendar"
+ldesc: "Hebrew Calendar is a GTK class which shows the Hebrew dates and
+holydays and their corresponding Gregorian date. Its based on the GTK
+toolkit and it can be integrated in any piece of GTK software. The dates
+convertor is a C++ class written by Nachum Dershowitz and Edward M.
+Reingold, and available in the Public Domain. There is also support for
+libhdate which is an open source hebrew to gregorian date library
+available in debian hebrew packages."
