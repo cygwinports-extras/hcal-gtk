@@ -1,5 +1,5 @@
 category: Judaism
-requires: cygwin gtk2-x11 libsqlite3_0
+requires: gtk2-x11 libsqlite3_0
 sdesc: "GTK Hebrew calendar"
 ldesc: "Hebrew Calendar is a GTK class which shows the Hebrew dates and
 holydays and their corresponding Gregorian date. Its based on the GTK
